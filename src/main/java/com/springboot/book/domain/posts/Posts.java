@@ -11,7 +11,7 @@ import javax.persistence.*;
 @Entity
 public class Posts {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(length = 500, nullable = false)
