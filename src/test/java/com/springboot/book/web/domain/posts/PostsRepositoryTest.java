@@ -1,6 +1,6 @@
 package com.springboot.book.web.domain.posts;
 
-import com.springboot.book.domain.posts.PostRepository;
+import com.springboot.book.domain.posts.PostsRepository;
 import com.springboot.book.domain.posts.Posts;
 import org.junit.After;
 import org.junit.Test;
@@ -19,7 +19,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class PostsRepositoryTest {
 
     @Autowired
-    PostRepository postsRepository;
+    PostsRepository postsRepository;
 
     @After
     public void cloeanup() {
